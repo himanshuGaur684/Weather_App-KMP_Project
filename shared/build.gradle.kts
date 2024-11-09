@@ -39,8 +39,6 @@ kotlin {
             implementation(libs.kotlinx.serialization)
 
             implementation(libs.androidx.lifecycle.viewmodel)
-
-            implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
